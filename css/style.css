@@ -17,6 +17,13 @@ body {
     margin: 0;
 }
 
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
 .header {
     width: 100%;
     margin: 0 auto; 
@@ -218,12 +225,7 @@ body {
     margin-right: 6px; /* Espace minimal avec le texte */
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
+
 
 a {
     color: inherit;
