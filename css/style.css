@@ -493,7 +493,7 @@ footer {
         max-width: 668px;
         width: 100%;
         height: auto;
-        flex-wrap: wrap;
+        flex-wrap: wrap; /*le titre filtre passe au dessus des boutons*/
         gap: 20px;
     }
 
@@ -646,12 +646,12 @@ footer {
       }
 
       .top-nav a:first-child:hover::after {
-        /* Pour "Hébergements" (premier lien) */
+        /* Pour "Hébergements"  */
         width: 50%; /* Bleue sur la moitié gauche */
       }
       
       .top-nav a:last-child:hover::after {
-        /* Pour "Activités" (dernier lien) */
+        /* Pour "Activités" */
         left: 50%;
         width: 50%; /* Bleue sur la moitié droite */
       }
@@ -709,7 +709,7 @@ footer {
     }
 
     .barre-recherche .search-icon {
-        display: block; /*rend le texte visible*/
+        display: block; /*rend l'icon visible*/
     }
 
     .filtre {
